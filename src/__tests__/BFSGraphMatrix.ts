@@ -11,6 +11,7 @@ test("bfs - graph matrix", function () {
     ]);
 
     expect(bfs(matrix2, 6, 0)).toEqual(null);
+    expect(bfs(matrix2, 0, 0)).toEqual([0]);
 });
 
 
